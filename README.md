@@ -10,7 +10,7 @@ A GitHub Codespaces-ready Minecraft Java server setup using **Paper 26.2** and *
 4. In the Codespaces terminal, run:
 
    ```bash
-   ./start.sh
+   bash start.sh
    ```
 
 The first run downloads the latest stable Paper 26.2 server JAR.
@@ -32,7 +32,7 @@ Codespaces forwards TCP port **25565**. In the **Ports** tab, you can view the f
 ## Useful commands
 
 - Start: `./start.sh`
-- Download/update the Paper JAR: delete `server.jar`, then run `./scripts/download-paper.sh`
+- Download/update the Paper JAR: delete `server.jar`, then run `bash scripts/download-paper.sh`
 - Change memory: `MIN_RAM=1G MAX_RAM=3G ./start.sh`
 
 Server files, worlds, logs, and plugins are ignored by Git so they are not accidentally committed. Back up your world separately before changing server versions.
