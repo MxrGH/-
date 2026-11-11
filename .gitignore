@@ -1,0 +1,13 @@
+# Minecraft server runtime files
+server.jar
+paper-*.jar
+eula.txt
+server.properties
+*.log
+logs/
+world/
+world_nether/
+world_the_end/
+cache/
+plugins/*
+!plugins/.gitkeep
