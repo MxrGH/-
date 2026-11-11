@@ -3,7 +3,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 if [[ ! -f server.jar ]]; then
-  ./scripts/download-paper.sh
+  bash ./scripts/download-paper.sh
 fi
 
 if [[ ! -f eula.txt ]] || ! grep -q '^eula=true$' eula.txt; then
